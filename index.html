@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/stylesheet/main.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/script/menu.js"></script>
+    <script src="assets/script/countdownTimer.js"></script>
+    <script src="assets/script/drumKit.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="banner">
+            <div class="container">
+            <h1 class="factory">THE BAND FACTORY</h1>
+            </div>
+        </div>
+        <div class="container" id="menu">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+        </div>
+        <img src="assets/images/brand.png" class="img-responsive brand" />
+    </div>
+    <div class="overlay" id="over">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">BAND</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid people">
+        <h1>THE BAND</h1>
+        <button class="button">VIEW MORE</button>
+    </div>
+    <div class="container-fluid coming-soon">
+        <h1>COMING SOON</h1>
+        <div class="container">
+            <div class="row">
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+<div class="container gallery">
+    <h1>GALLERY</h1>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="hov">
+                <img src="assets/images/gallery-1.jpeg" />
+                <div class="image-overlay">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+                <div class="hov">
+                        <img src="assets/images/gallery-2.jpeg" />
+                        <div class="image-overlay">
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-4">
+                    <div class="hov">
+                            <img src="assets/images/gallery-3.jpeg" />
+                            <div class="image-overlay">
+                            </div>
+                        </div>
+                </div>
+    </div>
+    <div class="row">
+            <div class="col-sm-4">
+                    <div class="hov">
+                            <img src="assets/images/gallery-4.jpeg" />
+                            <div class="image-overlay">
+                            </div>
+                        </div>
+            </div>
+            <div class="col-sm-4">
+                    <div class="hov">
+                            <img src="assets/images/gallery-5.jpeg" />
+                            <div class="image-overlay">
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                        <div class="hov">
+                                <img src="assets/images/gallery-6.jpeg" />
+                                <div class="image-overlay">
+                                </div>
+                            </div>
+                    </div>
+        </div>
+    
+</div>
+<div id="drumkit">
+    <div class="center">
+        <h1>DRUM KIT</h1>
+    </div>
+    <video autoplay loop>
+        <source src="assets/video/drum.mp4" />
+    </video>
+        <ul>
+                <li data-key="65">
+                    <kbd>A</kbd>
+                    <span>CLAP</span>
+                </li>
+                <li>
+                    <kbd>S</kbd>
+                    <span>HIHAT</span>
+                </li>
+                <li>
+                    <kbd>D</kbd>
+                    <span>KICK</span>
+                </li>
+                <li>
+                    <kbd>F</kbd>
+                    <span>OPENHAT</span>
+                </li>
+                <li>
+                        <kbd>G</kbd>
+                        <span>BOOM</span>
+                </li>
+                <li>
+                        <kbd>H</kbd>
+                        <span>RIDE</span>
+                </li>
+                <li>
+                        <kbd>J</kbd>
+                        <span>SNARE</span>
+                </li>
+                <li>
+                        <kbd>K</kbd>
+                        <span>TOM</span>
+                </li>
+                <li>
+                        <kbd>L</kbd>
+                        <span>TINK</span>
+                    </li>
+            </ul>
+            <audio data-key="65" src="assets/sounds/clap.wav"></audio>
+            <audio data-key="83" src="assets/sounds/hihat.wav"></audio>
+            <audio data-key="68" src="assets/sounds/kick.wav"></audio>
+            <audio data-key="70" src="assets/sounds/openhat.wav"></audio>
+            <audio data-key="71" src="assets/sounds/BOOM.wav"></audio>
+            <audio data-key="72" src="assets/sounds/RIDE.wav"></audio>
+            <audio data-key="74" src="assets/sounds/SNARE.wav"></audio>
+            <audio data-key="75" src="assets/sounds/TOM.wav"></audio>
+            <audio data-key="76" src="assets/sounds/TINK.wav"></audio>
+            <p>Hit the keys to play the sound(Only for laptops and PCs).</p>
+</div>
+<footer>
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <div class="well">
+            <form>
+                <input type="text" name="yourname" class="form-control" placeholder="NAME" />
+                <input type="email" name="email" class="form-control" placeholder="EMAIL" />
+                <input type="text" name="phone" class="form-control" placeholder="MOBILE" />
+                <button type="submit" class="btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="social">
+            <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
+                <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+            </ul>
+        </div>
+        <p>Copyright &copy; 2018 Bhavay Puri</p>
+</footer>
+</body>
+</html>
