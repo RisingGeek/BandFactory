@@ -10,24 +10,29 @@
     <link rel="stylesheet" href="assets/stylesheet/main.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/script/preLoader.js"></script>
     <script src="assets/script/menu.js"></script>
     <script src="assets/script/countdownTimer.js"></script>
     <script src="assets/script/drumKit.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="banner">
-            <div class="container">
-            <h1 class="factory">THE BAND FACTORY</h1>
+    <div id="pre-loader">
+        <img src="assets/images/pre-loader.gif" id="pre-loader" class="img-responsive">
+    </div>
+    <div id="load">
+        <div class="container-fluid">
+            <div class="banner">
+                <div class="container">
+                    <h1 class="factory">THE BAND FACTORY</h1>
+                </div>
             </div>
-        </div>
         <div class="container" id="menu">
             <div class="bar-1"></div>
             <div class="bar-2"></div>
             <div class="bar-3"></div>
         </div>
         <img src="assets/images/brand.png" class="img-responsive brand" />
-    </div>
+        </div>
     <div class="overlay" id="over">
         <ul>
             <li><a href="#">HOME</a></li>
@@ -177,5 +182,6 @@
         </div>
         <p>Copyright &copy; 2018 Bhavay Puri</p>
 </footer>
+</div>
 </body>
 </html>
