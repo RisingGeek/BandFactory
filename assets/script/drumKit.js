@@ -4,7 +4,7 @@ function playSound(e) {
    var drumKit = document.getElementById('drumkit');
    var ul = drumKit.querySelector('ul');
    var li = ul.querySelectorAll('li');
-   for(var i in audio) {
+   for(var i = 0; i < audio.length; i++) {
        if(e.keyCode==audio[i].getAttribute('data-key')) {
            audio[i].play();
            audio[i].currentTime=0;
